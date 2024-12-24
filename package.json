@@ -1,14 +1,17 @@
 {
-  "name": "nrm",
+  "name": "@solumon/urm",
   "version": "2.0.1",
   "description": "npm registry manager can help you switch different npm registries easily and quickly",
   "bin": {
-    "nrm": "dist/index.js"
+    "urm": "dist/index.js"
   },
   "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pana/nrm.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist"
