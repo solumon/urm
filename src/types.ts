@@ -5,11 +5,11 @@ export interface Registry {
 
 export type RegistryAlias =
   | 'npm'
-  | 'yarn'
   | 'tencent'
-  | 'cnpm'
   | 'taobao'
-  | 'npmMirror'
-  | 'huawei';
+  | 'mirror'
+  | 'huawei'
+  | 'up366'
+  | 'up366Host'
 
 export type RegistryConfig = Record<RegistryAlias, Registry>;

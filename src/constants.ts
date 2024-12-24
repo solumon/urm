@@ -7,23 +7,23 @@ export const REGISTRIES: RegistryConfig = {
     home: 'https://www.npmjs.org',
     registry: 'https://registry.npmjs.org/',
   },
-  yarn: {
-    home: 'https://yarnpkg.com',
-    registry: 'https://registry.yarnpkg.com/',
+  up366: {
+    home: 'http://192.168.0.198:8081',
+    registry: 'http://192.168.0.198:8081/repository/npm-group/',
   },
-  tencent: {
-    home: 'https://mirrors.tencent.com/npm/',
-    registry: 'https://mirrors.tencent.com/npm/',
-  },
-  cnpm: {
-    home: 'https://cnpmjs.org',
-    registry: 'https://r.cnpmjs.org/',
+  up366Host: {
+    home: 'http://192.168.0.198:8081',
+    registry: 'http://192.168.0.198:8081/repository/npm-host/',
   },
   taobao: {
     home: 'https://npmmirror.com',
     registry: 'https://registry.npmmirror.com/',
   },
-  npmMirror: {
+  tencent: {
+    home: 'https://mirrors.tencent.com/npm/',
+    registry: 'https://mirrors.tencent.com/npm/',
+  },
+  mirror: {
     home: 'https://skimdb.npmjs.com/',
     registry: 'https://skimdb.npmjs.com/registry/',
   },
